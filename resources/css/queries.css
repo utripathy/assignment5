@@ -48,9 +48,6 @@
   .plan-price {
     font-size: 250%;
   }
-  .contact-form {
-    width: 80%;
-  }
 }
 
 /* small phones small tablets */
@@ -92,14 +89,19 @@
   .works-step:last-of-type {
     margin-bottom: 5em;
   }
+  .contact-form {
+    width: 150% !important;
+    margin-left: -20%;
+  }
 }
 
 /* small phones 0 to 480px */
 @media only screen and (max-width: 480px) {
   section {
-    padding: 25px 0;
+    padding: 45px 0;
   }
   .contact-form {
-    width: 100% !important;
+    width: 150% !important;
+    margin-left: -20%;
   }
 }
