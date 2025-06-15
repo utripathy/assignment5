@@ -146,9 +146,9 @@ h2::after {
 }
 
 .long-copy {
-  line-height: 145%;
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin: 0 auto; /* Center it horizontally */
+  padding: 1em 0; /* Add vertical spacing if needed */
 }
 
 .box {
@@ -392,7 +392,7 @@ blockquote:before {
 }
 
 .contact-form {
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -410,13 +410,13 @@ textarea {
   height: 10em;
 }
 input[type='checkbox'] {
-  margin: 1em 1em 1em 0;
+  margin: 0.1em 0.1em 0.1em 0;
 }
 
 footer {
   background-color: #333;
   font-size: 90%;
-  padding: 3.125em;
+  padding: 1.125em;
   margin-top: 2em;
   color: #fff; /* Ensures text is visible */
   clear: both;
