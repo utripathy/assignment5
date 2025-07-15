@@ -1,105 +1,162 @@
-@media only screen and (max-width: 1200px) {
-  .hero-text-box {
-    width: 80%;
-    padding: 0 2%;
-  }
-  .row {
-    padding: 0 2%;
+/* ===== Base Fluid Scaling ===== */
+@media (max-width: 75rem) {
+  /* 1200px */
+  html {
+    font-size: 56.25%; /* ~9px */
   }
 }
 
-@media only screen and (max-width: 1023px) {
+@media (max-width: 62.5rem) {
+  /* 1000px */
+  html {
+    font-size: 50%; /* ~8px */
+  }
+}
+
+@media (max-width: 48rem) {
+  /* 768px */
+  html {
+    font-size: 46.875%; /* ~7.5px */
+  }
+}
+
+/* ===== Tablet / Landscape Phones ===== */
+@media only screen and (max-width: 75rem) {
+  .hero-text-box {
+    width: 80%;
+    padding: 0 2rem;
+  }
+
+  .row {
+    padding: 0 2rem;
+  }
+}
+
+@media only screen and (max-width: 64rem) {
   .long-copy {
     width: 80%;
-    margin: 10%;
+    margin: 5rem auto;
   }
-  body {
-    font-size: 1rem;
-  }
+
   section {
-    padding: 4em 0;
+    padding: 4rem 0;
   }
+
   .steps-box {
-    margin-top: 2em;
+    margin-top: 2rem;
   }
+
   .steps-box:last-child {
-    margin-top: 1em;
+    margin-top: 1rem;
   }
+
   .works-step {
-    margin-bottom: 3em;
+    margin-bottom: 3rem;
   }
+
   .works-step:last-of-type {
-    margin-bottom: 1em;
+    margin-bottom: 1rem;
   }
+
   .app-screen {
     width: 50%;
   }
+
   .icon-small {
-    width: 1em;
-    margin-right: 1em;
+    width: 1rem;
+    margin-right: 1rem;
   }
+
   .city-feature {
     font-size: 90%;
   }
-  .plam-box {
+
+  .plan-box {
     width: 100%;
     margin-left: 0;
   }
+
   .plan-price {
-    font-size: 250%;
+    font-size: 2.5rem;
   }
+
   .contact-form {
     width: 80%;
   }
 }
 
-/* small phones small tablets */
-@media only screen and (max-width: 767px) {
-  body {
-    font-size: 1em;
+/* ===== Phones / Small Tablets ===== */
+@media only screen and (max-width: 48rem) {
+  .main-nav {
+    display: none;
   }
+
+  .hero-text-box h1 {
+    font-size: 3.2rem;
+  }
+
+  .btn {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+  }
+
   section {
-    padding: 30px 0;
+    padding: 3rem 0;
   }
+
   .row,
   .hero-text-box {
     padding: 0 4%;
   }
+
   .col {
     width: 100%;
     margin: 0 0 4% 0;
   }
-  .main-nav {
-    display: none;
-  }
+
   .app-screen {
     width: 40%;
   }
+
   .steps-box:first-child {
     text-align: center;
   }
-  .work-step div {
-    height: 40px;
-    width: 40px;
-    margin-right: 1em;
-    padding: 4px;
-    font-size: 120%;
+
+  .works-step div {
+    height: 4rem;
+    width: 4rem;
+    margin-right: 1rem;
+    padding: 0.4rem;
+    font-size: 1.6rem;
   }
 
-  .work-step {
-    margin-bottom: 5em;
+  .works-step {
+    margin-bottom: 5rem;
   }
+
   .works-step:last-of-type {
-    margin-bottom: 5em;
+    margin-bottom: 5rem;
   }
 }
 
-/* small phones 0 to 480px */
-@media only screen and (max-width: 480px) {
+/* ===== Small Phones (0 - 480px) ===== */
+@media only screen and (max-width: 30rem) {
   section {
-    padding: 25px 0;
+    padding: 2.5rem 0;
   }
+
   .contact-form {
     width: 100% !important;
   }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 1rem 1.8rem;
+  }
+}
+
+/* ===== Utilities ===== */
+img {
+  max-width: 100%;
+  height: auto;
 }
