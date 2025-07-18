@@ -47,19 +47,19 @@
   }
 
   .steps-box:last-child {
-    margin-top: 1rem;
+    margin-top: 2rem;
   }
 
   .works-step {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .works-step:last-of-type {
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
   }
 
   .app-screen {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .icon-small {
@@ -111,7 +111,7 @@
   }
 
   .app-screen {
-    width: 40%;
+    /* width: 40%; */
   }
 
   .steps-box:first-child {
@@ -134,8 +134,8 @@
     margin-bottom: 5rem;
   }
   .contact-form {
-    width: 150% !important;
-    margin-left: -20%;
+    width: 110% !important;
+    margin-left: -2%;
   }
 }
 
@@ -147,8 +147,8 @@
   }
 
   .contact-form {
-    width: 150% !important;
-    margin-left: -20%;
+    width: 110% !important;
+    margin-left: -2%;
   }
 
   .btn {
